@@ -30,6 +30,7 @@ public class LoginPage extends AppCompatActivity {
     public EditText Email;
     public EditText Password;
     public Button Login;
+    public Button Cheat;
     public ImageButton showhide;
     public TextView Info;
     public TextView Rege;
@@ -55,6 +56,7 @@ public class LoginPage extends AppCompatActivity {
         Email = findViewById(R.id.lemail);
         Password = findViewById(R.id.rlpass);
         Login = findViewById(R.id.login);
+        Cheat = findViewById(R.id.cheat);
         Info = findViewById(R.id.inpass);
         Rege = findViewById(R.id.rege);
         showhide = findViewById(R.id.sh);
@@ -102,6 +104,15 @@ public class LoginPage extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(LoginPage.this,Register.class);
+                finish();
+                startActivity(intent);
+            }
+        });
+
+        Cheat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginPage.this,HomePage.class);
                 finish();
                 startActivity(intent);
             }

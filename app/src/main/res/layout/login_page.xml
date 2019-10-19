@@ -150,4 +150,12 @@
         app:layout_constraintVertical_bias="0.51"
         app:srcCompat="@drawable/ic_iconfinder_eye_24_103177" />
 
+    <Button
+        android:id="@+id/cheat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cheat"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="503dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

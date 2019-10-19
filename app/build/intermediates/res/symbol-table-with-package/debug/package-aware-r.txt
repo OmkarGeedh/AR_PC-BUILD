@@ -25,6 +25,15 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array Case
+array HDD
+array SSD
+array cooling_fan
+array motherboard
+array processors
+array ram
+array smps
+array video_card
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1081,6 +1090,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable inputwhite
+drawable motherboard
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable mybutton
@@ -1097,6 +1107,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable processor
 drawable side_nav_bar
 drawable toast_frame
 drawable tooltip_frame_dark
@@ -1146,6 +1157,7 @@ id center
 id center_horizontal
 id center_vertical
 id chains
+id cheat
 id checkbox
 id chronometer
 id clip_horizontal
@@ -1178,6 +1190,7 @@ id enterAlwaysCollapsed
 id exit
 id exitUntilCollapsed
 id expand_activities_button
+id expandable_listview
 id expanded_menu
 id fill
 id fill_horizontal
@@ -1212,7 +1225,9 @@ id light
 id line1
 id line3
 id listMode
+id list_child
 id list_item
+id list_parent
 id lname
 id login
 id masked
@@ -1283,7 +1298,6 @@ id snap
 id snapMargins
 id sound
 id spacer
-id spinner
 id split_action_bar
 id spread
 id spread_inside
@@ -1403,6 +1417,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout home_page
+layout list_group
+layout list_item
 layout login_page
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
@@ -1430,6 +1446,9 @@ layout support_simple_spinner_dropdown_item
 layout toast_layout
 mipmap ic_launcher
 mipmap ic_launcher_round
+string Case
+string HDD
+string SSD
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1497,6 +1516,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string cooling_fan
 string default_web_client_id
 string dummy_button
 string dummy_content
@@ -1515,6 +1535,7 @@ string menu_send
 string menu_share
 string menu_slideshow
 string menu_tools
+string motherboard
 string mtrl_chip_close_icon_content_description
 string nav_header_desc
 string nav_header_subtitle
@@ -1526,12 +1547,16 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string processors
 string project_id
+string ram
 string search_menu_title
+string smps
 string status_bar_notification_info_overflow
 string title_activity_naviwelcome
 string title_activity_welcome1
 string toast_message
+string video_card
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

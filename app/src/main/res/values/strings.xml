@@ -22,4 +22,75 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+
+    <string name="processors">CPU</string>
+    <string name="motherboard">MOTHERBOARD</string>
+    <string name="ram">RAM</string>
+    <string name="video_card">VIDEO_CARD</string>
+    <string name="cooling_fan">CPU_FAN</string>
+    <string name="HDD">HDD</string>
+    <string name="SSD">SSD</string>
+    <string name="Case">CASE</string>
+    <string name="smps">POWER SUPPLY</string>
+
+
+    <string-array name="processors">
+        <item>INTEL i3</item>
+        <item>INTEL i5</item>
+        <item>INTEL i7</item>
+        <item>INTEL i9</item>
+        <item>AMD RYZEN 3</item>
+        <item>AMD RYZEN 5</item>
+        <item>AMD RYZEN 7</item>
+    </string-array>
+
+    <string-array name="motherboard">
+        <item>MSI MOTHERBOARD(Micro ATX)</item>
+        <item>GIGABYTE MOTHERBOARD(ATX)</item>
+        <item>ASUS MOTHERBOARD(Micro ATX)</item>
+    </string-array>
+
+    <string-array name="ram">
+        <item>CORSAIR 8GB Vengeance LPX DDR4 PC4-19200 2400MHz Desktop Memory - Red</item>
+        <item>Corsair Vengeance LPX 8GB DDR4 3000 (PC4-24000) C16 PC Memory (CMK8GX4M1D3000C16)</item>
+        <item>HyperX Fury Black 8 GB CL15 DIMM DDR4 2400 MT/s Internal Memory (HX424C15FB2/8)</item>
+    </string-array>
+
+    <string-array name="cooling_fan">
+        <item>Nzxt Kraken RL-KRX42-02 All-in-One 140mm CPU Liquid Cooling System (Black)</item>
+        <item>Corsair Hydro Series H115i RGB Platinum Liquid CPU Cooler - Black</item>
+    </string-array>
+
+    <string-array name="HDD">
+        <item>Seagate New BarraCuda ST1000DM010 1TB 64MB Cache SATA 6.0Gb/s 3.5" Hard Drive Bare Desktop Drive Latest</item>
+        <item>Western Digital WD10EZEX 1TB Internal Hard Drive for Desktop (Blue)</item>
+    </string-array>
+
+    <string-array name="SSD">
+        <item>Western Digital WD Green 240 GB 2.5 inch SATA III Internal Solid State Drive (WDS240G2G0A)</item>
+        <item>Kingston SSDNow A400 240GB Internal Solid State Drive (SA400S37/240GIN)</item>
+    </string-array>
+
+    <string-array name="Case">
+        <item>Corsair Crystal 680X RGB ATX High Airflow Tempered Glass Smart Case — Black</item>
+        <item>Corsair Carbide Series CC-9011050-WW Mid-Tower Steel Gaming Case with Red LED (Black)</item>
+        <item>Corsair Carbide SPEC-05 Mid-Tower Gaming Case - Black</item>
+        <item>Cooler Master MasterBox K501L RGB Mid Tower Gaming Cabinet with Pre-installed Fans and Transparent Side Panel</item>
+        <item>Circle Gaming Phoenix ATX Tower Case with Transparent Side Panel  Cases</item>
+    </string-array>
+
+    <string-array name="smps">
+        <item>Corsair VS450 450-Watt Power Supply</item>
+        <item>Corsair VS550 550-Watt Power Supply</item>
+        <item>Corsair CP-9020098-UK VS Series VS650 650 Watt Power Supply Unit</item>
+    </string-array>
+
+    <string-array name="video_card">
+        <item>ASUS ROG Strix GeForce RTX 2080 Ti OC Edition 11GB GDDR6 PCI Express Graphics Card</item>
+        <item>ASUS Cerberus GeForce GTX 1050 Ti 4GB OC Edition GDDR5 Gaming Graphics Card (Cerberus-GTX1050Ti-O4G)</item>
+        <item>MSI GAMING 6GB GDDR5 DirectX 12 VR Ready (GeForce GTX 1060 6GT OC)</item>
+    </string-array>
+
+
+
 </resources>
