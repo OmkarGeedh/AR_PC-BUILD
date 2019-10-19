@@ -1,7 +1,6 @@
 package com.godkiller.reoract;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,7 +11,6 @@ public class HomePage extends AppCompatActivity {
     public Button Start;
     public Button Exit;
     public Button Settings;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
